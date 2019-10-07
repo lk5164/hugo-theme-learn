@@ -6,7 +6,7 @@
     {{ hugo.Generator }}
     {{ partial "meta.html" . }}
     {{ partial "favicon.html" . }}
-    <title>{{ .Title }} :: {{ .Site.Title }}</title>
+    <title>{{ .Title }}</title>
 
     {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
     <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
@@ -91,7 +91,7 @@
           {{if and (not .IsHome) (not .Params.chapter) }}
             <h1>
               {{ if eq .Kind "taxonomy" }}
-                {{.Kind}} ::
+                {{.Kind}} <i><img src="/images/favicon.png" style="display: inline-block;margin: 0px;" /></i>	
               {{ end }}
               {{.Title}}
             </h1>

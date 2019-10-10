@@ -1,0 +1,26 @@
+[Search-placeholder]
+other = "Поиск..."
+
+[Clear-History]
+other = "Очистить историю"
+
+[Attachments-label]
+other = "Вложения"
+
+[title-404]
+other = "Ошибка"
+
+[message-404]
+other = "Ой. похоже данная страница не найдена ¯\\_(ツ)_/¯."
+
+[Go-to-homepage]
+other = "Перейти на главную"
+
+[Edit-this-page]
+other = "Редактировать эту страницу"
+
+[Shortcuts-Title]
+other = "Еще"
+
+[Expand-title]
+other = "Развернуть..."
